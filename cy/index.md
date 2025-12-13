@@ -60,4 +60,4 @@ language: cy
 Rydym yn croesawu cyfraniadau gan unrhyw un.
 
 - Email us [email@domain.com](/)
-- [Gweld y prosiect hwn ar GitHub](/)
+- [Gweld y prosiect hwn ar GitHub](https://github.com/cymruddigidol/cymruddigidol.github.io)

@@ -59,5 +59,4 @@ language: en
 We welcome contributions from anyone.
 
 - Email us [email@domain.com](/)
-- [View this project on GitHub](/)
-
+- [View this project on GitHub](https://github.com/cymruddigidol/cymruddigidol.github.io)
