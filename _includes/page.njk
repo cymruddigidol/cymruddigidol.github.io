@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="{{ language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/bundle.css">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" name="description" content="{{ description }}">
+  </head>
+  <body>
+  <header role="banner">
+    <div class="width-container border-bottom--white">
+      <div class="grid-row">
+        <div class="grid-column-one-half">
+          <div class="header__logo">
+            {% if language == "en" %}
+            <a href="/">Cymru Ddigidol</a>
+            {% elif language == "cy" %}
+            <a href="/cy">Cymru Ddigidol</a>
+            {% endif %}
+            </div>
+        </div>
+        <div class="grid-column-one-half text-align-right">
+          {% if language == "en" %}
+          <a href="cy">Cymraeg</a>
+          {% elif language == "cy" %}
+          <a href="/">English</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </header>
+    <main role="main">
+      <div class="masthead">
+        <div class="width-container">
+          <h1>{{ title }}</h1>
+          <p class="body-l">{{ description }}</p>
+        </div>
+      </div>
+      <div class="width-container">
+        {{ content | safe }}
+      </div>
+    </main>
+  <footer role="contentinfo">
+    <div class="width-container">
+      © Cymru Ddigidol. Trwyddedig o dan <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
+    </div>
+  </footer>
+  </body>
+</html>

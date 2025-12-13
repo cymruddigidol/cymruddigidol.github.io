@@ -1,0 +1,143 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    background-color: lightgrey;
+    -webkit-font-smoothing: antialiased;
+}
+
+.body-l {
+    font-size: 1.3em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+a {
+    text-underline-offset: 0.25em;
+    color: #bc1717;
+}
+
+a:hover {
+    text-decoration-thickness: 3px;
+}
+
+a:focus {
+    outline: 3px solid #bc1717;
+    outline-offset: 3px;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+header {
+    background-color: #bc1717;
+    color: white;
+    padding: 1em 0;
+}
+
+.header__logo {
+    font-weight: bold;
+}
+
+.header__logo a {
+    text-decoration: none;
+}
+
+.header__logo a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    color: white;
+}
+
+header a:focus {
+    outline-color: white;
+}
+
+@media only screen and (max-width: 40em) {
+    header .width-container {
+        padding-bottom: 2em;
+}
+}
+
+main {
+    background-color: white;
+    padding-bottom: 5em;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 1em 0;
+}
+
+footer a {
+    color: black;
+}
+
+.width-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1em 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.4;
+    text-wrap: balance;
+}
+h1 {
+    font-size: 2.5em;
+    line-height: 1.3;
+    margin-top: 0;
+    color: #bc1717;
+}
+
+.masthead {
+    background-color: #bc1717;
+    color: white;
+    padding-bottom: 1em;
+}
+
+.masthead h1 {
+    color: white;
+}
+
+@media only screen and (min-width: 40em) {
+
+.grid-row {
+    display: flex;
+}
+
+
+.grid-column-one-half {
+    width: 50%;
+    margin-bottom: 1em;
+    padding-right: 2em;
+}
+
+.grid-column-one-third {
+    width: 33.3333333333%;
+    margin-bottom: 1em;
+    padding-right: 2em;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+}
+.border-bottom--white {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid lightgray;
+    margin: 3em 0;
+}
