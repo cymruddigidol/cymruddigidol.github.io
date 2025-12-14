@@ -57,7 +57,7 @@ language: en
 ## Blogs
 
 - [Centre for Digital Public Services (CDPS)](https://digitalpublicservices.gov.wales/blog)
-- [Natural Resources Wales Digital](https://naturalresources.wales/footer-links/blog-nrw-digital/?lang=en)
+- [Natural Resources Wales Digital (Blog)](https://naturalresources.wales/footer-links/blog-nrw-digital/?lang=en)
 - [Transform Wales](https://transform.wales/blog/)
 - [Welsh Revenue Authority](https://welshrevenueauthority.blog.gov.wales/)
 - [Welsh Government Digital and Data](https://digitalanddata.blog.gov.wales/)
@@ -66,11 +66,11 @@ language: en
 
 - [Digital Service Standard for Wales](https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales)
 - [Service manual for Wales](https://digitalpublicservices.gov.wales/guidance-and-standards/service-manual)
-- [Cymraeg Clir](https://www.bangor.ac.uk/sites/default/files/2025-05/CymraegClir.pdf)
+- [Cymraeg Clir (PDF)](https://www.bangor.ac.uk/sites/default/files/2025-05/CymraegClir.pdf)
 
 ## Reports
 
-- [System Reboot (2018)](https://www.gov.wales/sites/default/files/publications/2019-07/system-reboot-transforming-public-services-through-better-use-of-digital.pdf)
+- [System Reboot (2018) (PDF)](https://www.gov.wales/sites/default/files/publications/2019-07/system-reboot-transforming-public-services-through-better-use-of-digital.pdf)
 - [Transforming public services for a modern Wales (2025)](https://transform.wales/report/)
 
 
