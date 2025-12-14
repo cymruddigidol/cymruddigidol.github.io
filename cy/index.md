@@ -57,7 +57,7 @@ language: cy
 ## Blogiau
 
 - [Canolfan Gwasanaethau Cyhoeddus Digidol (CDPS)](https://gwasanaethaucyhoeddusdigidol.llyw.cymru/blogiau)
-- [Cyfoeth Naturiol Cymru Digidol](https://naturalresources.wales/footer-links/blog-nrw-digital/?lang=cy)
+- [Cyfoeth Naturiol Cymru Digidol (Blog)](https://naturalresources.wales/footer-links/blog-nrw-digital/?lang=cy)
 - [Trawsnewid Cymru](https://transform.wales/cy/blog/)
 - [Awdurdod Cyllid Cymru](https://awdurdodcyllidcymru.blog.llyw.cymru/)
 - [Digidol a data yn Llywodraeth Cymru](https://digidoladata.blog.llyw.cymru/)
@@ -66,11 +66,11 @@ language: cy
 
 - [Safon Gwasanaethau Digidol Cymru](https://gwasanaethaucyhoeddusdigidol.llyw.cymru/arweiniad-a-safonau/safon-gwasanaeth-digidol-cymru)
 - [Llawlyfr gwasanaeth i Gymru](https://gwasanaethaucyhoeddusdigidol.llyw.cymru/arweiniad-a-safonau/llawlyfr-gwasanaeth)
-- [Cymraeg Clir](https://www.bangor.ac.uk/sites/default/files/2025-05/CymraegClir.pdf)
+- [Cymraeg Clir (PDF)](https://www.bangor.ac.uk/sites/default/files/2025-05/CymraegClir.pdf)
 
 ## Adroddiadau
 
-- [System Reboot (2018)](https://www.gov.wales/sites/default/files/publications/2019-07/system-reboot-transforming-public-services-through-better-use-of-digital.pdf)
+- [System Reboot (2018) (PDF)](https://www.gov.wales/sites/default/files/publications/2019-07/system-reboot-transforming-public-services-through-better-use-of-digital.pdf)
 - [Trawsnewid gwasanaethau cyhoeddus ar gyfer Cymru fodern (2025)](https://transform.wales/cy/adroddiad/)
 
 </div>
