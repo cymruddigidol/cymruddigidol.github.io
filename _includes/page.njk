@@ -8,6 +8,12 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" name="description" content="{{ description }}">
+    <meta property="og:site_name" content="Cymru Ddigidol">
+    {% if language == "en" -%}
+    <meta property="og:locale" content="en_GB">
+    {% elif language == "cy" -%}
+    <meta property="og:locale" content="cy_GB">
+    {% endif -%}
   </head>
   <body>
   <header role="banner">
@@ -15,19 +21,19 @@
       <div class="grid-row">
         <div class="grid-column-one-half">
           <div class="header__logo">
-            {% if language == "en" %}
-            <a href="/">Cymru Ddigidol</a>
-            {% elif language == "cy" %}
-            <a href="/cy">Cymru Ddigidol</a>
-            {% endif %}
-            </div>
+            {% if language == "en" -%}
+            <a href="/" lang="cy">Cymru Ddigidol</a>
+            {% elif language == "cy" -%}
+            <a href="/cy" lang="cy">Cymru Ddigidol</a>
+            {% endif -%}
+          </div>
         </div>
         <div class="grid-column-one-half text-align-right">
-          {% if language == "en" %}
-          <a href="cy">Cymraeg</a>
-          {% elif language == "cy" %}
-          <a href="/">English</a>
-          {% endif %}
+          {% if language == "en" -%}
+          <a href="cy" hreflang="cy" lang="cy" rel="alternate">Cymraeg</a>
+          {% elif language == "cy" -%}
+          <a href="/" hreflang="en" lang="en" rel="alternate">English</a>
+          {% endif -%}
         </div>
       </div>
     </div>
@@ -45,7 +51,12 @@
     </main>
   <footer role="contentinfo">
     <div class="width-container">
-      © Cymru Ddigidol. Trwyddedig o dan <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
+      © <span lang="cy">Cymru Ddigidol</span>. 
+      {% if language == "en" -%}
+      Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
+      {% elif language == "cy" -%}
+      Trwyddedig o dan <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
+      {% endif -%}
     </div>
   </footer>
   </body>
