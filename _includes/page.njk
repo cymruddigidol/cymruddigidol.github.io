@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/bundle.css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" name="description" content="{{ description }}">
     <meta property="og:site_name" content="Cymru Ddigidol">
     {% if language == "en" -%}
-    <meta property="og:locale" content="en_GB">
+      <meta property="og:locale" content="en_GB">
     {% elif language == "cy" -%}
-    <meta property="og:locale" content="cy_GB">
+      <meta property="og:locale" content="cy_GB">
     {% endif -%}
   </head>
   <body>
-  <header role="banner">
-    <div class="width-container border-bottom--white">
-      <div class="grid-row">
-        <div class="grid-column-one-half">
-          <div class="header__logo">
+    <header role="banner">
+      <div class="width-container border-bottom--white">
+        <div class="grid-row">
+          <div class="grid-column-one-half">
+            <div class="header__logo">
+              {% if language == "en" -%}
+                <a href="/" lang="cy">Cymru Ddigidol</a>
+              {% elif language == "cy" -%}
+                <a href="/cy" lang="cy">Cymru Ddigidol</a>
+              {% endif -%}
+            </div>
+          </div>
+          <div class="grid-column-one-half text-align-right">
             {% if language == "en" -%}
-            <a href="/" lang="cy">Cymru Ddigidol</a>
+              <a href="cy" hreflang="cy" lang="cy" rel="alternate">Cymraeg</a>
             {% elif language == "cy" -%}
-            <a href="/cy" lang="cy">Cymru Ddigidol</a>
+              <a href="/" hreflang="en" lang="en" rel="alternate">English</a>
             {% endif -%}
           </div>
         </div>
-        <div class="grid-column-one-half text-align-right">
-          {% if language == "en" -%}
-          <a href="cy" hreflang="cy" lang="cy" rel="alternate">Cymraeg</a>
-          {% elif language == "cy" -%}
-          <a href="/" hreflang="en" lang="en" rel="alternate">English</a>
-          {% endif -%}
-        </div>
       </div>
-    </div>
-  </header>
+    </header>
     <main role="main">
       <div class="masthead">
         <div class="width-container">
@@ -49,15 +50,15 @@
         {{ content | safe }}
       </div>
     </main>
-  <footer role="contentinfo">
-    <div class="width-container">
+    <footer role="contentinfo">
+      <div class="width-container">
       © <span lang="cy">Cymru Ddigidol</span>. 
       {% if language == "en" -%}
       Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
       {% elif language == "cy" -%}
       Trwyddedig o dan <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
       {% endif -%}
-    </div>
-  </footer>
+      </div>
+    </footer>
   </body>
 </html>
